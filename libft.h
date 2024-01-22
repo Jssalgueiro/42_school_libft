@@ -6,7 +6,7 @@
 /*   By: jsilva-s <jsilva-s@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 18:30:31 by jsilva-s          #+#    #+#             */
-/*   Updated: 2023/05/26 10:50:11 by jsilva-s         ###   ########.fr       */
+/*   Updated: 2024/01/22 13:05:16 by jsilva-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,10 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
+
+# include "ft_printf.h"
+# include "get_next_line.h"
+# include "get_next_line_bonus.h"
 
 typedef struct s_list
 {

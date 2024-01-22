@@ -6,7 +6,7 @@
 #    By: jsilva-s <jsilva-s@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/20 11:35:48 by jsilva-s          #+#    #+#              #
-#    Updated: 2023/05/25 14:47:27 by jsilva-s         ###   ########.fr        #
+#    Updated: 2024/01/22 13:04:22 by jsilva-s         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,6 +24,13 @@ SOURCES += ft_substr.c ft_strjoin.c ft_strtrim.c
 SOURCES += ft_split.c ft_putchar_fd.c ft_putstr_fd.c
 SOURCES += ft_putendl_fd.c ft_putnbr_fd.c ft_strmapi.c
 SOURCES += ft_striteri.c ft_itoa.c
+SOURCES += ft_print_arg_d.c ft_print_arg_p.c ft_print_arg_u.c
+SOURCES += ft_printf.c ft_print_arg_x.c ft_putchar_pf.c
+SOURCES += ft_verify_param.c ft_strdup_pf.c ft_putstr_pf.c
+SOURCES += ft_arg_conv.c ft_hexalen.c ft_intlen.c ft_itoa_hexa.c
+SOURCES += get_next_line.c get_next_line_utils.c
+SOURCES += get_next_line_bonus.c get_next_line_utils_bonus.c
+
 
 # compile .c to .o
 OBJECTS = ${SOURCES:.c=.o}
